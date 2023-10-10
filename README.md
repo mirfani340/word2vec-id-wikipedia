@@ -7,15 +7,20 @@ Source  : https://dumps.wikimedia.org/idwiki/latest/
 
 File    : idwiki-latest-pages-articles.xml.bz2
 
-## Pre-trained word2vec models (WIP)
-Link: WIP
+## Pre-trained word2vec models
 
-If you only want to use the pre-trained model for your project, you can use mine instead of manually training your own model. However, it's currently unavailable due to a cloud storage problem. Please stay tuned.
+If you only want to use the pre-trained model for your project, you can use mine instead of manually training your own model.
+
+**Always Verify What You Download**
+
+Compare what you download with the **md5sum** that i put on the download link
+
+Link: https://mega.nz/folder/6y5XXY6K#mjaEBjGBETEWrYuL13hS_Q
 
 ## How to use
-Just place the datasets into datasets folder then follow the **main.ipynb** code
+Just place the **datasets** into **datasets** folder then follow the **main.ipynb** code
 
-## Example of the project folder if the all files are uploaded
+## Example of the project folder 
 ```
 .
 ├── datasets
@@ -30,3 +35,13 @@ Just place the datasets into datasets folder then follow the **main.ipynb** code
 
 2 directories, 7 files
 ```
+
+## Posible Error Found:
+```
+TypeError: __randomstate_ctor() takes from 0 to 1 positional arguments but 2 were given
+```
+### Fix
+https://stackoverflow.com/questions/75490275/gensim-pickle-error-enable-to-load-the-saved-topic-model
+
+## Contact Me
+Telegram: @shadow1graves
